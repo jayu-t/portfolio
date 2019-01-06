@@ -3,7 +3,7 @@ body, html {
     color: #777;
     line-height: 1.8;
     background-color: #33001a;
-}
+} 
 header {
     height: 100%;
     background-image: url('img/cover.jpg');
@@ -44,9 +44,6 @@ nav ul li:hover {
     text-decoration: none;
 	color: black;
 }  
-.mg10 {
-	margin-left: 10px;
-}  
 .branding {
     text-align: center;
     font-size: 1.6em;
@@ -58,73 +55,32 @@ nav ul li:hover {
     letter-spacing: 8px;
     font-family: 'Signika', sans-serif;
 }
-/*section 1*/
-section #about {
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 20px;
-    color: black;
-    /*background-color: lightblue;*/
-    font-size: 30px;
-    font-family: 'Chivo', sans-serif;
+.display-middle {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
 }
-
-/*section 2 , section 3*/
-section .showcase {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    color: black;
-    /*background-color: lightblue;*/
-    font-size: 30px;
-    font-family: 'Chivo', sans-serif;
-    
-    /*background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    color: beige;
-    font-size: 2em;*/
+#section1 {
+    font-size: 1.3rem;
 }
-.showcase span {
+.word-space {
+    letter-spacing: 0.5em;
+}
+.bg-muted {
+    background-color: #a7aeba;
     color: white;
-}
-.img1 {
-    background-image: url('img/contact.jpg');
-}
-.img2 {
-    background-image: url('img/project.jpg');
-}
-.my-img {
-    width: 400px;
-}
-.project-dis {
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 .txt-name , .txt-email , .txt-massage {
     width: 90%;
     height: 40px;
 }
-.txt-email , .txt-massage , form .btn {
-    margin-top: 10px;
-}
 .txt-massage {
     height: 100px;
-    background-color: #060424;
 }
-#contact .row {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-/*footer*/
 footer {
-    background-color: #5F5170;
+    background-color: rgb(25, 23, 27);
     /*opacity: 0.60;*/
     /*background-image: url('img/footer1.jpg');*/
     color: #9fa8b7;
@@ -135,131 +91,21 @@ footer a {
     /*color: black;*/
 	color: #fff;
 }
-footer:hover {
-    /*background-image: url('img/footer2.jpg');*/
-    
-}
-footer a:hover {
-    color: #060424;
-}
 .links {
     font-size: 35px;
     margin-top: 10px;
 }
-.text-sm {
-    font-size: 17px;
+footer a:hover {
+    color: #060424;
 }
-.text-bold {
-    font-weight: 1000;
+.row .card {
+    margin-bottom: 20px;
 }
-.word-space {
-    letter-spacing: 0.5em;
-}
-.margin-none {
-    margin: 0;
-}
-.margin-top-2 {
-    margin-top: 15px;
-}
-.margin-top-1 {
-    margin-top: 5px;
-}
-.percent-bar, .percent-bar div {
-    width: 85%;
-    height: 30px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-}
-.display-middle {
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    -ms-transform:translate(-50%,-50%);
+.font-20 {
+    font-size: 1.3rem;
 }
 .card:hover {
     background-color: #ff4d4d;
     color: white;
     box-shadow: 5px 5px 10px white;
 }
-.containt {
-    font-family: 'Overpass', sans-serif;
-}
-.sub-heading {
-    font-family: 'Nixie One', cursive;
-    font-weight: 1000;
-}
-.percent-bars {
-    font-family: 'Domine', serif;
-}
-.row .card {
-    margin-bottom: 10px;
-}
-
-.back-color {
-    background-color: brown;
-    color: white;
-}
-
-/*Small devices (landscape phones, 576px and up)*/
-@media (max-width: 767px) {
-    .containt {
-        padding-top: 20px;
-    }
-    .row .card {
-        margin-bottom: 10px;
-        
-    }
-    .block1 {
-        margin: 0;
-        background-color: brown;
-        padding: 20px;
-        color: white;
-    }
-    .block2 {
-        margin: 0;
-        background-color: aqua;
-        margin-top: 50px;
-        padding: 20px;
-        color: black;
-    }
-}
-@media (max-width: 400px) {
-    nav ul li a:hover {
-        padding: 0;
-        background-color: black;
-        color: aqua;
-        /*text-decoration: none;*/
-        border: none;
-        /*border-color: aqua;*/
-        /*border-radius: 30px;*/
-    }
-}
-
-
-/*Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }*/
-
-/*Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }*/
-
-/*Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
