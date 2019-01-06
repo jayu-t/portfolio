@@ -114,7 +114,8 @@ section .showcase {
     margin-top: 10px;
 }
 .txt-massage {
-    height: 80px;
+    height: 100px;
+    background-color: #060424;
 }
 #contact .row {
     margin-top: 50px;
@@ -186,7 +187,6 @@ footer a:hover {
 }
 .containt {
     font-family: 'Overpass', sans-serif;
-    
 }
 .sub-heading {
     font-family: 'Nixie One', cursive;
